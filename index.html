@@ -2,10 +2,24 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>斯诺克/台球争霸</title>
-    <!-- 引入 Tailwind CSS (为了简化部署，这里直接用 CDN) -->
+    <link rel="icon" type="image/svg+xml" href="https://cdn.lucide.dev/trophy.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>斯诺克/台球争霸让分版</title>
+    
+    <!-- PWA 配置 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#0f172a" />
+    
+    <!-- 引入 Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        background-color: #f8fafc;
+        overscroll-behavior-y: none;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
